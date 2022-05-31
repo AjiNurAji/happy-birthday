@@ -19,7 +19,7 @@ function mulai(){
 }
 
 function wa(isi){
-  window.open("https://api.whatsapp.com/send?text= Makasih ya udah inget ulang tahun aku, di hari spesial ini aku pengin " + isi);
+  window.open("https://api.whatsapp.com/send?text= Makasih ya udah inget ulang tahun aku, di hari spesial ini aku pengen " + isi);
 }
 async function tanya(){
   var{
@@ -30,10 +30,10 @@ async function tanya(){
     showCancelButton: false,
   });
   if(kado){
-    await swal.fire("Kirim jawabannya ke wa aa yaa!!");
+    await swal.fire("Kirim jawabannya ke wa aku yaa!!");
     wa(kado);
   } else{
-    await swal.fire("Jangan dikosongin dong dee!!!");
+    await swal.fire("Jangan dikosongin dong!!!");
     tanya();
   }
 }
