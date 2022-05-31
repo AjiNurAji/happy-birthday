@@ -4,7 +4,6 @@ AOS.init({
   once: true,
 });
 
-
 var audio = document.querySelector(".lagu");
 if(musik){
   audio.src = musik;
