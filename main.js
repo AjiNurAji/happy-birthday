@@ -25,7 +25,7 @@ async function tanya(){
   var{
     value: kado
   } = await swal.fire({
-    title: "Di hari ulang tahun ini kamu pengen apa??",
+    title: "Di hari ulang tahun ini kamu pengen apa???",
     input: "text",
     showCancelButton: false,
   });
